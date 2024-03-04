@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "enterprises",
+    "dateExported": "2024-03-04T03:53:20.503Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "547bddc2-d7a6-4249-bf6f-e4642e2cb11a",
+            "colId": "a27ab4d1-1ae2-485a-9a81-5d77aad07dc0",
+            "containerId": "",
+            "name": "Register Enterprise",
+            "url": "http://localhost:3000/EnterpriseManager/v1/enterprises",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T02:25:29.560Z",
+            "modified": "2024-03-04T03:51:20.790Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameEnterprise\": \"Burger King\",\n  \"levelImpact\": \"High\",\n  \"experienceYear\": 68,\n  \"categoryEnterprise\": \"Food\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "210bd4aa-99b9-4d15-821c-0317cf2c39be",
+            "colId": "a27ab4d1-1ae2-485a-9a81-5d77aad07dc0",
+            "containerId": "",
+            "name": "List Enterprises",
+            "url": "http://localhost:3000/EnterpriseManager/v1/enterprises/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-04T02:25:29.562Z",
+            "modified": "2024-03-04T03:41:43.790Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5170e43e-7843-49c1-bc86-6d92c2ec3933",
+            "colId": "a27ab4d1-1ae2-485a-9a81-5d77aad07dc0",
+            "containerId": "",
+            "name": "Update Enterprise",
+            "url": "http://localhost:3000/EnterpriseManager/v1/enterprises/65e542e99450fe6271365527",
+            "method": "PUT",
+            "sortNum": 35000,
+            "created": "2024-03-04T02:25:29.561Z",
+            "modified": "2024-03-04T03:42:56.586Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameEnterprise\": \"Honda\",\n  \"categoryEnterprise\": \"Transport\",\n  \"experienceYear\": 70\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "aba12e28-c78b-4a1b-a65e-8966f3a85524",
+            "colId": "a27ab4d1-1ae2-485a-9a81-5d77aad07dc0",
+            "containerId": "",
+            "name": "Generate Report",
+            "url": "http://localhost:3000/EnterpriseManager/v1/report",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-04T02:25:29.563Z",
+            "modified": "2024-03-04T03:51:41.957Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

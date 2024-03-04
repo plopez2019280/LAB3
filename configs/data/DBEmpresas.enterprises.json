@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "65e542e99450fe6271365527"
+  },
+  "nameEnterprise": "Honda",
+  "levelImpact": "High",
+  "experienceYear": 70,
+  "categoryEnterprise": "Transport",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e5438a9450fe627136552e"
+  },
+  "nameEnterprise": "Pollo Campero",
+  "levelImpact": "High",
+  "experienceYear": 50,
+  "categoryEnterprise": "Food",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e543f09450fe6271365531"
+  },
+  "nameEnterprise": "Deezer",
+  "levelImpact": "Low",
+  "experienceYear": 16,
+  "categoryEnterprise": "Entertainment",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e544f99450fe6271365534"
+  },
+  "nameEnterprise": "YugoGV",
+  "levelImpact": "Low",
+  "experienceYear": 11,
+  "categoryEnterprise": "Transport",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e545389450fe6271365537"
+  },
+  "nameEnterprise": "Burger King",
+  "levelImpact": "High",
+  "experienceYear": 68,
+  "categoryEnterprise": "Food",
+  "__v": 0
+}]
