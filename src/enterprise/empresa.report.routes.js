@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { validarCampos } from "../middlewares/validar-campos.js";
+import { validarCampos } from "../middlewares/validarCampos.js";
 import { generateReport } from "./empresa.controller.js";
 const rutaReport = Router();
 

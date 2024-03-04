@@ -60,7 +60,7 @@ export const obtenerEmpresas = async (req, res) => {
         "2": "Sorting by years of experience descending means you used case 2",
         "3": "Sorting by ascending category means you used case 3",
         "4": "Sorting by descending category means you used case 4",
-        "default": "If you want to change the order of the list, write a number in the route like in this example -> /enterprise/(number)"
+        "default": "If you want to change the order of the list, write a number from 1 to 4 in the route like in this example -> /enterprise/(number)"
     };
 
     switch (order) {

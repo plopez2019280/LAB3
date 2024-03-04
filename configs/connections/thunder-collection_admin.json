@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "admin",
+    "dateExported": "2024-03-04T04:47:50.245Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c671a791-710c-4015-9d40-2f017771ab46",
+            "colId": "f8cb915d-03d9-4a82-b2df-3ae2bac55c68",
+            "containerId": "",
+            "name": "RegisterAdmin",
+            "url": "localhost:3000/EnterpriseManager/v1/admin",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T04:45:43.897Z",
+            "modified": "2024-03-04T04:47:35.949Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Mario Kempes\",\n  \"email\": \"mariokempes@gmail.com\",\n  \"password\": \"2024003\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

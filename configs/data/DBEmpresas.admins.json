@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "65e5526af915140b5afaafee"
+  },
+  "name": "Mario Kempes",
+  "email": "mariokempes@gmail.com",
+  "password": "$2a$10$PJMCgdJ8GR4YBrigA2i8hOA5hGKsNkwR2oakjEH5PYWl2Myko/qcS",
+  "isActive": true,
+  "__v": 0
+}]

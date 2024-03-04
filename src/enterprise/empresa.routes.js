@@ -1,7 +1,7 @@
 import { Router } from "express";
 const routerEnterprise = Router();
 import { check } from "express-validator";
-import { validarCampos } from "../middlewares/validar-campos.js";
+import { validarCampos } from "../middlewares/validarCampos.js";
 import { EnterprisePut, enterprisePost, obtenerEmpresas } from "./empresa.controller.js";
 import { categoryExiste, levelImExiste } from "../helpers/db-validators.js";
 

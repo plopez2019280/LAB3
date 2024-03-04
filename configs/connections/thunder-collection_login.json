@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "login",
+    "dateExported": "2024-03-04T05:28:08.283Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bc01d22e-c83a-4926-ab27-d9135c035cc2",
+            "colId": "643046b7-c9bd-4639-9963-c1c9f58d3e24",
+            "containerId": "",
+            "name": "Sign up",
+            "url": "localhost:3000/EnterpriseManager/v1/auth",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-04T04:50:01.939Z",
+            "modified": "2024-03-04T05:26:12.495Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"mariokempes@gmail.com\",\n  \"password\": \"2024003\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
